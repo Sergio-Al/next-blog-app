@@ -55,7 +55,7 @@ const WritePage = () => {
           getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
             setMedia(downloadURL);
           });
-        }
+        }  
       );
     };
 
